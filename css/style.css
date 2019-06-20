@@ -88,9 +88,7 @@ body {
     margin-bottom: 32px;
 }
 
-.navigation-element__container{
-
-}
+.navigation-element__container {}
 
 .navigation__list {
     display: flex;
