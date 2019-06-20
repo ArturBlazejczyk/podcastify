@@ -10,15 +10,29 @@ body {
     padding: 0 16px;
 }
 
-.fa-pause-circle {}
+.fa-pause-circle {
+    font-size: 32px;
+    padding: 0 16px;
+}
 
-.fa-play-circle {}
+.fa-play-circle {
+    font-size: 32px;
+    padding: 0 16px;
+}
 
-.fa-step-backward {}
+.fa-step-backward {
+    font-size: 32px;
+    padding: 0 16px;
+}
 
-.fa-step-forward {}
+.fa-step-forward {
+    font-size: 32px;
+    padding: 0 16px;
+}
 
-.fa-volume-up {}
+.fa-volume-up {
+    font-size: 32px;
+}
 
 .far {}
 
@@ -28,9 +42,7 @@ body {
     margin: 0 0 16px 256px;
 }
 
-.main-footer {
-    
-}
+.main-footer {}
 
 .main-header {
     display: flex;
@@ -38,11 +50,17 @@ body {
     position: fixed;
     height: 100%;
     max-height: 100vh;
+    padding-left: 16px;
+}
+
+.main-header__recently {
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .main-logo {
     font-size: 48px;
-    margin: 16px;
+    margin: 16px 0 0 0;
 }
 
 .navigation {
@@ -53,13 +71,13 @@ body {
     display: flex;
     flex-flow: column;
     align-items: flex-start;
-    padding: 0 32px;
     list-style: none;
+    padding: 0;
 }
 
 .navigation__element {
     font-size: 18px;
-    padding: 8px 0;
+    margin: 8px 0;
 }
 
 .navigation__link {
@@ -115,25 +133,25 @@ body {
     font-size: 24px;
 }
 
-.played__image{
+.played__image {
     width: 100%;
     height: 100%;
     max-width: 96px;
     max-height: 96px;
 }
 
-.played__name{
+.played__name {
     font-size: 18px;
     text-decoration: none;
     padding: 0 0 8px 8px;
 }
 
-.played__author{
+.played__author {
     font-size: 16px;
     margin: 0 0 8px 8px;
 }
 
-.player{
+.player {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,22 +162,36 @@ body {
     padding: 0 64px 16px 0px;
 }
 
-.played__description{
+.played__description {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
 }
 
-.player__navigation{
+.player__navigation {
     display: flex;
     justify-content: space-between;
     width: 100%;
     max-width: 10vw;
 }
 
-.player__played{
+.player__played {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
 }
 
+.podcast__name-recently {
+    font-size: 16px;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+.recently__element {
+    margin: 8px 0;
+}
+
+.recently__list {
+    list-style: none;
+    padding: 0;
+}
