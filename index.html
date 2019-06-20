@@ -13,128 +13,141 @@
 </head>
 
 <body>
-    <div class="page">
+    <main class="main">
         <header class="main-header">
             <span class="main-logo">Podcastify</span>
             <nav class="navigation">
                 <ul class="navigation__list">
-                    <li class="navigation__element"><a class="navigation__link" href="#">Home</a></li>
-                    <li class="navigation__element"><a class="navigation__link" href="#">Wyszukaj</a></li>
-                    <li class="navigation__element"><a class="navigation__link" href="#">Ranking</a></li>
-                    <li class="navigation__element"><a class="navigation__link" href="#">Katalog</a></li>
-                    <li class="navigation__element"><a class="navigation__link" href="#">Nowości</a></li>
+                    <a class="navigation__link" href="#">
+                        <li class="navigation__element">Home</li>
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <a class="navigation__link" href="#">
+                        <li class="navigation__element">Wyszukaj</li>
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a class="navigation__link" href="#">
+                        <li class="navigation__element">Ranking</li>
+                        <i class="fas fa-list-ol"></i>
+                    </a>
+                    <a class="navigation__link" href="#">
+                        <li class="navigation__element">Katalog</li>
+                        <i class="fas fa-folder"></i>
+                    </a>
+                    <a class="navigation__link" href="#">
+                        <li class="navigation__element">Nowości</li>
+                        <i class="fas fa-bell"></i>
+                    </a>
                 </ul>
             </nav>
             <section class="main-header__recently">
                 <span class="recently__title">Ostatnio odtwarzane</span>
-                    <ul class="recently__list">
+                <ul class="recently__list">
                     <li class="recently__element"><a class="podcast__name-recently" href="#">Projektant Życia</a></li>
-                    <li class="recently__element"><a class="podcast__name-recently" href="#">Projektant Życia</a></li>
-                    <li class="recently__element"><a class="podcast__name-recently" href="#">Projektant Życia</a></li>
-                    <li class="recently__element"><a class="podcast__name-recently" href="#">Projektant Życia</a></li>
-                    <li class="recently__element"><a class="podcast__name-recently" href="#">Projektant Życia</a></li>
-                    </ul>
+                    <li class="recently__element"><a class="podcast__name-recently" href="#">7 metrów pod ziemią</a>
+                    </li>
+                    <li class="recently__element"><a class="podcast__name-recently" href="#">Polimaty 2</a></li>
+                    <li class="recently__element"><a class="podcast__name-recently" href="#">TED Talks Daily</a></li>
+                    <li class="recently__element"><a class="podcast__name-recently" href="#">Dev Talk</a></li>
+                </ul>
             </section>
         </header>
-
-        <main class="main">
-            <section class="podcast-line">
-                <header class="podcast-line__name">
-                    <h2>Twoje podcasty</h2>
-                </header>
-                <div class="podcast-container">
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/projektant-logo.jpg" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">Projektant Życia</a>
-                        <span class="podcast__author">Mirek Burnejko</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/siedemmetrow-logo.jpg" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">7 metrów pod ziemią</a>
-                        <span class="podcast__author">Radek Kotarski</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/polimaty-logo.jpg" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">Polimaty 2</a>
-                        <span class="podcast__author">Autor podcastu</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/tedtalks-logo.png" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">TED Talks Daily</a>
-                        <span class="podcast__author">TED</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/wnop-logo.png" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">Więcej niż oszczędzanie pieniędzy</a>
-                        <span class="podcast__author">Michał Szafrański</span>
-                    </div>
+        <section class="podcast-line">
+            <header class="podcast-line__name">
+                <h2>Twoje podcasty</h2>
+            </header>
+            <div class="podcast-container">
+                <div class="podcast">
+                    <img class="podcast__image" src="img/projektant-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">Projektant Życia</a>
+                    <span class="podcast__author">Mirek Burnejko</span>
                 </div>
-            </section>
-            <section class="podcast-line">
-                <header class="podcast-line__name">
-                    <h2>Wybrane dla Ciebie</h2>
-                </header>
-                <div class="podcast-container">
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/projektant-logo.jpg" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">Projektant Życia</a>
-                        <span class="podcast__author">Mirek Burnejko</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/siedemmetrow-logo.jpg" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">7 metrów pod ziemią</a>
-                        <span class="podcast__author">Radek Kotarski</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/polimaty-logo.jpg" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">Polimaty 2</a>
-                        <span class="podcast__author">Autor podcastu</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/tedtalks-logo.png" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">TED Talks Daily</a>
-                        <span class="podcast__author">TED</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/wnop-logo.png" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">Więcej niż oszczędzanie pieniędzy</a>
-                        <span class="podcast__author">Michał Szafrański</span>
-                    </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/siedemmetrow-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">7 metrów pod ziemią</a>
+                    <span class="podcast__author">Radek Kotarski</span>
                 </div>
-            </section>
-            <section class="podcast-line">
-                <header class="podcast-line__name">
-                    <h2>Ostatnio odtwarzane</h2>
-                </header>
-                <div class="podcast-container">
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/projektant-logo.jpg" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">Projektant Życia</a>
-                        <span class="podcast__author">Mirek Burnejko</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/siedemmetrow-logo.jpg" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">7 metrów pod ziemią</a>
-                        <span class="podcast__author">Radek Kotarski</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/polimaty-logo.jpg" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">Polimaty 2</a>
-                        <span class="podcast__author">Autor podcastu</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/tedtalks-logo.png" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">TED Talks Daily</a>
-                        <span class="podcast__author">TED</span>
-                    </div>
-                    <div class="podcast">
-                        <img class="podcast__image" src="img/wnop-logo.png" alt="Okładka podcastu">
-                        <a class="podcast__name" href="#">Więcej niż oszczędzanie pieniędzy</a>
-                        <span class="podcast__author">Michał Szafrański</span>
-                    </div>
-            </section>
-        </main>
-    </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/polimaty-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">Polimaty 2</a>
+                    <span class="podcast__author">Autor podcastu</span>
+                </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/tedtalks-logo.png" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">TED Talks Daily</a>
+                    <span class="podcast__author">TED</span>
+                </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/devtalk-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">Dev Talk</a>
+                    <span class="podcast__author">Maciej Aniserowicz</span>
+                </div>
+            </div>
+        </section>
+        <section class="podcast-line">
+            <header class="podcast-line__name">
+                <h2>Wybrane dla Ciebie</h2>
+            </header>
+            <div class="podcast-container">
+                <div class="podcast">
+                    <img class="podcast__image" src="img/projektant-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">Projektant Życia</a>
+                    <span class="podcast__author">Mirek Burnejko</span>
+                </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/siedemmetrow-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">7 metrów pod ziemią</a>
+                    <span class="podcast__author">Radek Kotarski</span>
+                </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/polimaty-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">Polimaty 2</a>
+                    <span class="podcast__author">Autor podcastu</span>
+                </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/tedtalks-logo.png" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">TED Talks Daily</a>
+                    <span class="podcast__author">TED</span>
+                </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/devtalk-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">Dev Talk</a>
+                    <span class="podcast__author">Maciej Aniserowicz</span>
+                </div>
+            </div>
+        </section>
+        <section class="podcast-line">
+            <header class="podcast-line__name">
+                <h2>Ostatnio odtwarzane</h2>
+            </header>
+            <div class="podcast-container">
+                <div class="podcast">
+                    <img class="podcast__image" src="img/projektant-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">Projektant Życia</a>
+                    <span class="podcast__author">Mirek Burnejko</span>
+                </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/siedemmetrow-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">7 metrów pod ziemią</a>
+                    <span class="podcast__author">Radek Kotarski</span>
+                </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/polimaty-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">Polimaty 2</a>
+                    <span class="podcast__author">Autor podcastu</span>
+                </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/tedtalks-logo.png" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">TED Talks Daily</a>
+                    <span class="podcast__author">TED</span>
+                </div>
+                <div class="podcast">
+                    <img class="podcast__image" src="img/devtalk-logo.jpg" alt="Okładka podcastu">
+                    <a class="podcast__name" href="#">Dev Talk</a>
+                    <span class="podcast__author">Maciej Aniserowicz</span>
+                </div>
+        </section>
+    </main>
     <footer class="main-footer">
         <div class="player">
             <div class="player__played">
