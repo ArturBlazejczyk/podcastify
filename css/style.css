@@ -88,8 +88,6 @@ body {
     margin-bottom: 32px;
 }
 
-.navigation-element__container {}
-
 .navigation__list {
     display: flex;
     flex-flow: column;
@@ -101,6 +99,7 @@ body {
 .navigation__element {
     font-size: 18px;
     margin: 8px 0;
+    padding: 0;
 }
 
 .navigation__link {
@@ -110,6 +109,11 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 60%;
+}
+
+.navigation__name {
+    margin: 0;
+    padding: 0;
 }
 
 .podcast {
@@ -232,4 +236,5 @@ body {
 .recently__title {
     font-size: 18px;
     font-weight: bold;
+    margin: 0;
 }
