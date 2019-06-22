@@ -13,55 +13,57 @@
 </head>
 
 <body>
+    <header class="main-header">
+        <span class="main-logo">Podcastify</span>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__element">
+                    <a class="navigation__link" href="#">
+                        <p class="navigation__name">Home</p>
+                        <i class="fas fa-home"></i>
+                    </a>
+                </li>
+                <li class="navigation__element">
+                    <a class="navigation__link" href="#">
+                        <p class="navigation__name">Wyszukaj</p>
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+                <li class="navigation__element">
+                    <a class="navigation__link" href="#">
+                        <p class="navigation__name">Ranking</p>
+                        <i class="fas fa-list-ol"></i>
+                    </a>
+                </li>
+                <li class="navigation__element">
+                    <a class="navigation__link" href="#">
+                        <p class="navigation__name">Katalog</p>
+                        <i class="far fa-folder"></i>
+                    </a>
+                </li>
+                <li class="navigation__element">
+                    <a class="navigation__link" href="#">
+                        <p class="navigation__name">Nowości</p>
+                        <i class="fas fa-wind"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <section class="main-header__recently">
+            <h2 class="recently__title">Ostatnio odtwarzane</h2>
+            <ul class="recently__list">
+                <li class="recently__element"><a class="podcast__name-recently" href="#">Projektant Życia</a></li>
+                <li class="recently__element"><a class="podcast__name-recently" href="#">7 metrów pod ziemią</a>
+                </li>
+                <li class="recently__element"><a class="podcast__name-recently" href="#">Polimaty 2</a></li>
+                <li class="recently__element"><a class="podcast__name-recently" href="#">TED Talks Daily</a></li>
+                <li class="recently__element"><a class="podcast__name-recently" href="#">Dev Talk</a></li>
+            </ul>
+        </section>
+    </header>
+
     <main class="main">
-        <header class="main-header">
-            <span class="main-logo">Podcastify</span>
-            <nav class="navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__element">
-                        <a class="navigation__link" href="#">
-                            <p class="navigation__name">Home</p>
-                            <i class="fas fa-home"></i>
-                        </a>
-                    </li>
-                    <li class="navigation__element">
-                        <a class="navigation__link" href="#">
-                            <p class="navigation__name">Wyszukaj</p>
-                            <i class="fas fa-search"></i>
-                        </a>
-                    </li>
-                    <li class="navigation__element">
-                        <a class="navigation__link" href="#">
-                            <p class="navigation__name">Ranking</p>
-                            <i class="fas fa-list-ol"></i>
-                        </a>
-                    </li>
-                    <li class="navigation__element">
-                        <a class="navigation__link" href="#">
-                            <p class="navigation__name">Katalog</p>
-                            <i class="far fa-folder"></i>
-                        </a>
-                    </li>
-                    <li class="navigation__element">
-                        <a class="navigation__link" href="#">
-                            <p class="navigation__name">Nowości</p>
-                            <i class="fas fa-wind"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <section class="main-header__recently">
-                <h2 class="recently__title">Ostatnio odtwarzane</h2>
-                <ul class="recently__list">
-                    <li class="recently__element"><a class="podcast__name-recently" href="#">Projektant Życia</a></li>
-                    <li class="recently__element"><a class="podcast__name-recently" href="#">7 metrów pod ziemią</a>
-                    </li>
-                    <li class="recently__element"><a class="podcast__name-recently" href="#">Polimaty 2</a></li>
-                    <li class="recently__element"><a class="podcast__name-recently" href="#">TED Talks Daily</a></li>
-                    <li class="recently__element"><a class="podcast__name-recently" href="#">Dev Talk</a></li>
-                </ul>
-            </section>
-        </header>
+
         <section class="podcast-line">
             <header class="podcast-line__name">
                 <h2>Twoje podcasty</h2>
@@ -159,6 +161,7 @@
             </div>
         </section>
     </main>
+
     <footer class="main-footer">
         <div class="player">
             <div class="player__played">
