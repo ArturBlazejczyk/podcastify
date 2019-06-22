@@ -224,6 +224,32 @@ body {
     text-decoration: none;
 }
 
+.ranking {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ranking__element{
+    margin: 8px 0;
+    padding: 8px 0;
+    font-size: 18px;
+}
+
+.ranking__header{
+    padding-left: 16px;
+}
+
+.ranking__link{
+    padding-left: 8px;
+}
+
+.ranking__list{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
 .recently__element {
     margin: 8px 0;
 }
